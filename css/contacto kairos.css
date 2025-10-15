@@ -1,0 +1,39 @@
+/* ============================================== */
+/* --- 5. ESTILOS DE LA PÁGINA DE CONTACTO (3.contacto.html) --- */
+/* ============================================== */
+
+#contactTitle {
+    color: var(--color-primario-cafe);
+}
+
+.contact-card {
+    border: 3px solid var(--color-acento-dorado); /* Borde dorado destacado */
+    border-radius: 12px;
+    background-color: var(--color-texto-claro);
+}
+
+/* Estilo para el botón de envío del formulario */
+.btn-send-order {
+    background-color: var(--color-acento-dorado);
+    color: var(--color-primario-cafe);
+    font-weight: 700;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-send-order:hover {
+    background-color: var(--color-primario-cafe);
+    color: var(--color-acento-crema);
+    transform: translateY(-2px);
+}
+
+/* Asegurar el estilo del form-control */
+.form-control, .form-select {
+    border: 1px solid var(--color-fondo-sutil);
+    box-shadow: none;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--color-acento-dorado);
+    box-shadow: 0 0 0 0.25rem rgba(210, 156, 79, 0.25); /* Sombra suave con el color dorado */
+}
